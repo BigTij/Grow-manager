@@ -1,0 +1,14 @@
+p{
+  width: 50px;
+  height: 30px;
+  border-radius: 5px;
+}
+div.container{
+  background-image: url("imgs/2x2-grid.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 150px;
+  height: 150px;
+
+}

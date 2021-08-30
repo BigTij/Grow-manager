@@ -1,0 +1,46 @@
+/*div.P1, div.P2, div.P3, div.P4{
+  border: 4px solid;
+  border-radius: 10px;
+  width: 18%;
+  text-align: center;
+  background-position: center;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin-top: 15%;
+  margin-bottom: 10%;
+  margin-left: 5%;
+  float: left;
+}
+div.P1{
+  margin-left: 5%;
+}
+*/
+input.hr_on, input.hr_off, input.min_on,  input.min_off{
+  width: 20px;
+}
+input.hr_off{
+  margin-bottom: 20px;
+}
+body{
+  background-image: url("imgs/wallpaper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+p.P_init{
+  width: 50px;
+  padding: 5px;
+  border: 4px solid;
+  border-radius: 10px;
+  background-color: green;
+  margin-left: 38%;
+}
+p.P_timer{
+  text-decoration: underline;
+}
+.P1_input_hr, .P2_input_hr, .P1_input_min, .P2_input_min{
+  width: 20px;
+}
+.P1_on_container, .P1_off_container, .P2_on_container, .P2_off_container{
+  height: 20px;
+  width: 100%;
+}

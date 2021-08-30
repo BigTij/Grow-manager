@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Greenhouse timer</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../js/reload.js"></script>
+  </head>
+  <body>
+    <div class="P1" id="P1_div">
+      <p class="P_init" id="P1_state" onclick="change_P1_state()">on</p>
+      <img class="wall_plug" src="../css/imgs/wall_plug.png" alt="">
+      <div class="P_timer_container">
+        <p class="P_timer">Set a timer</p>
+        <form class="P_container" action="../index.php" method="post">
+          <script src="../js/restrict_input.js"></script>
+          <label for="on">On</label>
+          <input class="hr_on" type="text" name="hr_on" onkeypress="return isNumberKey(event)">
+          <label for="">:</label>
+          <input class="min_on"type="text" name="min_on" onkeypress="return isNumberKey(event)">
+          <label for="off">Off</label>
+          <input class="hr_off" type="text" name="hr_off" onkeypress="return isNumberKey(event)">
+          <label for="">:</label>
+          <input class="min_off" type="text" name="min_off" onkeypress="return isNumberKey(event)">
+          <input type="submit" name="submit-P1" value="Set">
+        </form>
+      </div>
+    </div>
+
+    <div class="P2" id="P2_div">
+      <p class="P_init" id="P2_state" onclick="change_P2_state()">on</p>
+      <img class="wall_plug" src="../css/imgs/wall_plug.png" alt="">
+      <div class="P_timer_container">
+        <p class="P_timer">Set a timer</p>
+        <form class="P_container" action="../index.php" method="post">
+          <script src="../js/restrict_input.js"></script>
+          <label for="on">On</label>
+          <input class="hr_on" type="text" name="hr_on" onkeypress="return isNumberKey(event)">
+          <label for="">:</label>
+          <input class="min_on"type="text" name="min_on" onkeypress="return isNumberKey(event)">
+          <label for="off">Off</label>
+          <input class="hr_off" type="text" name="hr_off" onkeypress="return isNumberKey(event)">
+          <label for="">:</label>
+          <input class="min_off" type="text" name="min_off" onkeypress="return isNumberKey(event)">
+          <input type="submit" name="submit-P2" value="Set">
+        </form>
+      </div>
+    </div>
+
+    <div class="P3" id="P3_div">
+      <p class="P_init" id="P3_state" onclick="change_P3_state()">on</p>
+      <img class="wall_plug" src="../css/imgs/wall_plug.png" alt="">
+      <div class="P_timer_container">
+        <p class="P_timer">Set a timer</p>
+        <form class="P_container" action="../index.php" method="post">
+          <script src="../js/restrict_input.js"></script>
+          <label for="on">On</label>
+          <input class="hr_on" type="text" name="hr_on" onkeypress="return isNumberKey(event)">
+          <label for="">:</label>
+          <input class="min_on"type="text" name="min_on" onkeypress="return isNumberKey(event)">
+          <label for="off">Off</label>
+          <input class="hr_off" type="text" name="hr_off" onkeypress="return isNumberKey(event)">
+          <label for="">:</label>
+          <input class="min_off" type="text" name="min_off" onkeypress="return isNumberKey(event)">
+          <input type="submit" name="submit-P3" value="Set">
+        </form>
+      </div>
+    </div>
+
+    <div class="P4" id="P4_div">
+      <p class="P_init" id="P4_state" onclick="change_P4_state()">on</p>
+      <img class="wall_plug" src="../css/imgs/wall_plug.png" alt="">
+      <div class="P_timer_container">
+        <p class="P_timer">Set a timer</p>
+        <form class="P_container" action="../index.php" method="post">
+          <script src="../js/restrict_input.js"></script>
+          <label for="on">On</label>
+          <input class="hr_on" type="text" name="hr_on" onkeypress="return isNumberKey(event)">
+          <label for="">:</label>
+          <input class="min_on"type="text" name="min_on" onkeypress="return isNumberKey(event)">
+          <label for="off">Off</label>
+          <input class="hr_off" type="text" name="hr_off" onkeypress="return isNumberKey(event)">
+          <label for="">:</label>
+          <input class="min_off" type="text" name="min_off" onkeypress="return isNumberKey(event)">
+          <input type="submit" name="submit-P4" value="Set">
+        </form>
+      </div>
+    </div>
+    <script src="../js/index.js"></script>
+  </body>
+</html>

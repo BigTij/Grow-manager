@@ -1,0 +1,77 @@
+body{
+  background-color: #f5f5f5;
+}
+p.mesure_label{
+  font-weight: bold;
+  font-size: calc(12px + (24 - 12) * ((100vw - 400px) / (2000 - 400)));
+  border-bottom: 2px solid white;
+  text-align: center;
+  position: relative;
+  top: 5%;
+  left: 10%;
+  width: 80%;
+}
+p.Humidity_mesure{
+  position: relative;
+  font-size: calc(20px + (80 - 20) * ((100vw - 300px) / (3000 - 300)));
+  text-align: center;
+}
+p.Temperature_mesure{
+  position: relative;
+  font-size: calc(20px + (80 - 20) * ((100vw - 300px) / (3000 - 300)));
+  text-align: center;
+}
+h1{
+  position: relative;
+  left: 40%;
+  text-align: center;
+  font-size: calc(20px + (60 - 20) * ((100vw - 400px) / (2000 - 400)));
+  border-bottom: 2px solid black;
+  width: 50%;
+}
+div.mesure_container{
+  position: relative;
+  text-align: center;
+  height: calc(40% + (60 - 40) * ((100vw -10px) / (7000 - 10)));
+}
+div.Environment{
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px black;
+  width: 80%;
+  height: calc(40% + (60 - 40) * ((100vw -10px) / (7000 - 10)));
+  position: absolute;
+  text-align: center;
+  top: 16%;
+  left: 10%;
+}
+div.Environment_Container{
+  position:  absolute;
+  bottom: 0px;
+  left: 0px;
+  color: white;
+  background-image: url('../Images/mesures_background.jpg');
+  padding: 10px;
+  border-right: 2px solid black;
+  box-shadow: 3px black;
+  width: 30%;
+  height: 100%;
+}
+div.Main{
+
+}
+div.Graph{
+  position: relative;
+  left: 35%;
+  top: 20%;
+  border-radius: 20px;
+  border: 2px solid black;
+  width: 60%;
+  height: 60%;
+  text-align: center;
+}
+canvas{
+  display: inline;
+  width: 60%;
+  height: calc(50% + (80 - 50) * ((100vw -10px) / (7000 - 10)));
+}
