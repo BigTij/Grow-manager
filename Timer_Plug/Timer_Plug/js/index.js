@@ -3,7 +3,7 @@ var P2 = true;
 var P3 = true;
 var P4 = true;
 
-var plug_nb = 1;
+var plug_nb = 4;
 var P = [];
 
 $(window).resize(function(){location.reload();});
